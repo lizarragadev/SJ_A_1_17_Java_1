@@ -9,11 +9,15 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    /**
+     * @author Gustavo Lizarraga
+     * @date 30-03-17
+     * */
+
     private int resultado;
     private EditText caja1;
     private EditText caja2;
     private TextView textoResultado;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
